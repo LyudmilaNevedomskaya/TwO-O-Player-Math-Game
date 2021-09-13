@@ -1,8 +1,12 @@
 require "./players"
 require "./questions"
+require "./game"
 
-player1 = Players.new('Mila')
-player2 = Players.new('Max')
+new_game = Game.new
 
-puts player1
-puts player2
+
+# player1 = Players.new('Mila')
+# player2 = Players.new('Max')
+
+
+
